@@ -49,3 +49,11 @@ ps -p 59559 -o comm=
 $ ps -p 59559 -o comm=  
 java
 ```
+
+### Дать права на выполнение
+
+Команда
+```bash
+$ sudo chmod +x <file_path>
+```
+
