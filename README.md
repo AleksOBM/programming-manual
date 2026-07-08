@@ -6,4 +6,4 @@ Russian language instructions for various programming tools that I would like to
 - [Kafka](manuals/kafka.md)
 - [Linux](/manuals/linux.md)
 - [Maven](/manuals/maven.md)
-
+- [Postgres](manuals/postgres.md)
