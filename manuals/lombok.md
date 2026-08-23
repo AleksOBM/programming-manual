@@ -1,4 +1,3 @@
-![[Frame 2.png]]
+![lombok.png](../files/lombok.png)
 
 # Lombok
-

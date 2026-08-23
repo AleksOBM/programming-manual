@@ -1,4 +1,3 @@
-![[Frame 11.png]]
+![docker.png](../files/docker.png)
 
 # Docker
-

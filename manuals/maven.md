@@ -1,4 +1,4 @@
-![[Frame 8.png]]
+![maven.png](../files/maven.png)
 
 # Maven
 
@@ -7,30 +7,31 @@
 ```xml
 <project>
 	<!-- . . . -->
-	<build> 
-		<!-- Укажите желаемое имя без расширения файла (.jar или .war) -->         
-		<finalName>my-custom-artifact-name</finalName> 
-	</build> 
+	<build>
+		<!-- Укажите желаемое имя без расширения файла (.jar или .war) -->
+		<finalName>my-custom-artifact-name</finalName>
+	</build>
 </project>
 ```
 
 ### Указать манифест
 
 Создает тонкий jar
+
 ```xml
- <plugin>  
-    <groupId>org.apache.maven.plugins</groupId>  
-    <artifactId>maven-jar-plugin</artifactId>  
-    <version>3.5.0</version>  
-    <configuration>  
-        <archive>  
-            <manifest>  
-                <addClasspath>true</addClasspath>  
-                <!-- Укажите ваш класс с методом main --> 
-                <mainClass>com.yourpackage.YourMainClass</mainClass> 
-            </manifest>  
-        </archive>  
-    </configuration>  
+ <plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-jar-plugin</artifactId>
+    <version>3.5.0</version>
+    <configuration>
+        <archive>
+            <manifest>
+                <addClasspath>true</addClasspath>
+                <!-- Укажите ваш класс с методом main -->
+                <mainClass>com.yourpackage.YourMainClass</mainClass>
+            </manifest>
+        </archive>
+    </configuration>
 </plugin>
 ```
 

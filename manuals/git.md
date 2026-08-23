@@ -1,4 +1,4 @@
-![[Frame 5 (1).png]]
+![git.png](../files/git.png)
 
 ### Термины
 

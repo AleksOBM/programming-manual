@@ -1,4 +1,4 @@
-![[Frame 4 (1).png]]
+![[java.png]]
 # Java
 
 - [Stream API](manuals/java/util/stream/stream-api.md)
