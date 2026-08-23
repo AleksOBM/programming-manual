@@ -1,8 +1,8 @@
+![[APACHE KAFKA (1).png]]
+
 # Apache Kafka
 
-![](/files/kafka.png)
-
-## Работа с Kafka в Docker
+### Работа с Kafka в Docker
 
 ```bash
 # Запуск без внешнего порта
