@@ -1,4 +1,4 @@
-![git.png](git.png)
+![git.png](/files/git.png)
 
 ### Термины
 
@@ -226,7 +226,7 @@ $ git push -u origin my-branch # отправили ветку my-branch в уд
 
 `git status --ignored` - Вывести статус с игнорируемыми файлами
 
-[Содержимое файла **.gitignore**](/manuals/git/gitignore)
+[Содержимое файла **.gitignore**](/manuals/git/gitignore.md)
 
 ### Как выйти из Vim
 
