@@ -9,6 +9,7 @@
 | `OptionalUsedAsFieldOrParameterType` | `'Optional<Category>' used as type for parameter 'category'` |
 | `SameParameterValue`                 | `Value of parameter 'isAdmin' is always 'false'`             |
 | `FieldCanBeLocal`                    | `Field can be converted to a local variable`                 |
+| `UnusedReturnValue`                  | `Return value of the method is never used`                   |
 
 ## Для IDEA
 [Убрать предупреждение "Similar log messages"](/manuals/ide/jet-brains/intelliJ-idea.md)
