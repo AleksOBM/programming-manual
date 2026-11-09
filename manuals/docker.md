@@ -219,6 +219,9 @@ docker start web
 # Перезапустить контейнер
 docker restart web
 
+# Переименовать контейнер
+docker rename old_container_name new_container_name
+
 # Удалить контейнер
 docker rm web
 
