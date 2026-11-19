@@ -85,6 +85,7 @@ graph LR;
 `git switch -c <new-branch_name>` Создать ветку и сразу переключиться на неё.  
 `git checkout -b <new-branch_name> <commit_hash>` Создать новую ветку от указанного
 коммита и сразу переключиться на неё.
+`git branch -m <branch_name>` Переименовать текущую ветку.  
 `git branch -a` Показать все ветки включая ветки в удаленном
 репозитории remotes/origin.  
 `git diff <branch_name> <branch_name>` Сравнить ветки.  
@@ -118,6 +119,7 @@ graph LR;
 как он был привязан с помощью флага **-u**.  
 `git remote set-url origin <URL>` Заменить **orgin** на новый.  
 `git remote rm origin` Удалить текущий origin.  
+`git push origin --delete <branch-name>` Удалить указанную ветку с сервера.  
 `git remote add origin` Перепривязать локальный проект к другому
 удаленному проекту после удаления origin.  
 `git remote set-url origin` Установить адрес удалённого репозитория (origin),
