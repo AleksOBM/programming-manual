@@ -117,6 +117,7 @@ graph LR;
 `git remote -v` Проверить, что репозитории действительно связались.  
 `git push` Загрузить коммиты в удалённый репозиторий после того,
 как он был привязан с помощью флага **-u**.  
+`git branch --set-upstream-to=origin/<branch-name>` Связать текущую ветку с веткой на сервере, если они не связаны.  
 `git remote set-url origin <URL>` Заменить **orgin** на новый.  
 `git remote rm origin` Удалить текущий origin.  
 `git push origin --delete <branch-name>` Удалить указанную ветку с сервера.  
